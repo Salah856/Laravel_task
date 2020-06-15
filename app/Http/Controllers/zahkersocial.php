@@ -11,7 +11,6 @@
 //      {
 //       return Socialite::driver($provider)->redirect();
 //     }
-
 // public function Callback($provider)
 // {
 // $userSocial =   Socialite::driver($provider)->stateless()->user();
