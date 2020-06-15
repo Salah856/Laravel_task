@@ -22,9 +22,13 @@ Route::post('register', 'RegistrationController@store');
 Route::post('/login', 'LoginController@store');
 // Route::get('/logout', 'LoginController@destroy');
 
+Route::get('/products', "ProductController@index"); 
 
-Route::resource('products', 'ProductController');
 
+
+
+
+//Route::resource('products', 'ProductController'); 
 //Route::get('login/{provider}', 'SocialController@redirect');
 //Route::get('login/{provider}/callback','SocialController@Callback');
 

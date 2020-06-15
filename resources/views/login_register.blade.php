@@ -33,7 +33,7 @@
                         <div class="row  ">
                             <div class="col-lg-3"> </div>
                             <div class="col-lg-3 col-md-6 col-sm-6 p-b-30 bo-r">
-                                <form class="leave-comment" method="post" action="{{ action(' ProductController@index')}}" >
+                                <form class="leave-comment" method="post" action="{{ action(' LoginController@store')}}" >
                                     <label> Username or Email</label>
 
                                     <div class="bo4 of-hidden size15 m-b-20">
@@ -77,7 +77,7 @@
                             <div class="col-md-3"> </div>
 
                             <div class="col-md-3 p-b-30 bo-r">
-                                <form class="leave-comment" method="post" action="{{ action('LoginRegisterController@show') }}">
+                                <form class="leave-comment" method="post" action="{{ action('LoginRegisterationController@show') }}">
                                     <label> name </label>
 
                                     <div class="bo4 of-hidden size15 m-b-20">
